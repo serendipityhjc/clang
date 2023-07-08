@@ -1,6 +1,2 @@
-토큰번호
-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
-토큰2
-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
-
-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
+최종 토큰번호!
+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

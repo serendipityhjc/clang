@@ -40,7 +40,9 @@ int main(void)
         29 30 31 32
         
     */
-    for (i = 0; i < 1; i++) 
+
+    int i,j,k;
+    for (i = 0; i < 2; i++) 
     {
         for(j = 0; j < 3; j++)
         {
@@ -49,7 +51,11 @@ int main(void)
                 printf("%d", arr[i][j][k]);
             }
             printf("\n");
-        };
-
-
+        }
+        printf("\n");
     }
+
+    return 0;
+
+
+}

@@ -21,6 +21,15 @@ int main(void)
 
     // 각 문자열의 길이 출력
     printf("str1의 길이: %d, str2의 길이: %d\n", strlen(str1), strlen(str2));
+    printf("str1의 길이: %d, str2의 길이: %d\n", sizeof(str1), sizeof(str2));
+
+    // str1의 내용 전체를 str3에 복사(대입)하기
+    strcpy(str3, str1);
+
+    // str1의 내용 일부를 str2에 복사(대입)하기
+    strncpy(str2, str1, 2);  // berry 대신 apple의 앞 2글자가 쓰임
+
+    printf("%s\n%s\n%s\n", str1, str2, str3);
 
     return 0;
 }

@@ -23,9 +23,14 @@ int sayHello(int count)
 {
     printf("Hello!\n");
 
-    if (count != 3) {
-        sayHello(count +1);
+    // if (count != 3) {
+    //     sayHello(count +1);
+    // }
+    if (count == 3)
+    {
+        return 0;
     }
+    sayHello(count +1);   // 바로 위의 주석과 같은 결과
 }
 
 int main(void)
